@@ -5,7 +5,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Flutter Tutorial"),
+        title: Text("Catelog App"),
         centerTitle: true,
       ),
       body: Center(
@@ -13,6 +13,7 @@ class HomePage extends StatelessWidget {
           child: Text("Hey bro what are you doing?hmm,"),
         ),
       ),
+      drawer: Drawer(),
     );
   }
 }
